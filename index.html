@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UACompatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="images/mobile_web_icon.png">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no, address=no, email=no">
+    <meta name="keywords" content="그린너트, 그린넛츠, 견과류, 하루견과, 브라질너트, 카카오닙스, 매일견과, 아몬드, 채움견과, 호두, 건자두, 밤, 캐슈너트, 사치인치, 건과일류">
+    <meta name="description" content="20년 전통 국내 최대 규모 견과류 전문브랜드 그린너트">
+    <meta name="url" content="https://www.greennuts.com/">
+    <meta name="image" content="https://www.greennuts.com/img/greennut.jpg">
+    <meta property="og:url" content="https://www.greennuts.com">
+    <meta property="og:title" content="그린너트">
+    <meta property="og:description" content="20년 전통 국내 최대 규모 견과류 전문브랜드 그린너트 ">
+    <meta property="og:keywords"
+        content="그린너트, 그린넛츠, 견과류, 하루견과, 브라질너트, 카카오닙스, 매일견과, 아몬드, 채움견과, 호두, 건자두, 밤, 캐슈너트, 사치인치, 건과일류">
+    <meta property="og:image" content="https://www.greennuts.com/img/greennut.jpg" />
+    <title>그린너트</title>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="js/swiper/swiper.min.css">
+    <script src="js/swiper/swiper.min.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 모달창 -->
+        <div class="modal">
+            <div class="modal-wrap">
+                <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+                <p>이 사이트의 저작권은 그린넛에게 있습니다 <br>문제시 삭제하겠습니다.</p>
+            </div>
+
+        </div>
+        <header class="header">
+            <div class="container">
+                <div class="search">
+                    <form action="" class="search-form">
+                        <input type="text" value placeholder="제품 검색" class="search-bt">
+                        <input type="submit" class="submit">
+                    </form>
+                </div>
+                <div class="logo">
+                    <a href="#"></a>
+                </div>
+                <div class="header-right">
+                    <ul class="gnb">
+                        <li><a href="#">로그인</a></li>
+                        <li><a href="#">회원가입</a></li>
+                        <li><a href="#">장바구니 0</a></li>
+                        <li><a href="#">고객센터</a>
+                            <img src="./images/customer_down.png" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="menu-all ">
+                    <a href="#">전체카테고리</a>
+                </div>
+                <div class="other-menu">
+                    <ul class="all-gnb">
+                        <li><a href="#">베스트상품</a></li>
+                        <li><a href="#">하루견과류</a></li>
+                        <li><a href="#">견과류,건과일</a></li>
+                        <li><a href="#">오늘만 특가</a></li>
+                        <li><a href="#">특가상품</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 상단 배너 -->
+        <section class="banner">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#" class="first-slide"></a>
+                    </div>
+                </div>
+            </div>
+            <button class="visual-button-prev"></button>
+            <button class="visual-button-next"></button>
+        </section>
+        <!-- //상단 배너 -->
+        <!-- 타임세일 -->
+        <section class="time_sale">
+            <div class="container">
+                <div class="today">
+                    <h2>
+                        오늘만 <b>특가</b>
+                    </h2>
+                    <span class="sale"><b>~50%</b>
+                        sale
+                    </span>
+                    <div class="timer">
+                        <span>남은 시간
+                        </span>
+                        <img src="./images/timer.png" alt="">
+                    </div>
+                    <div class="time">
+                        <ul class="time-gnb">
+                            <li class="hour">
+                                <span class="first"></span>
+                                <span class="second"></span>
+                            </li>
+                            <li class="minute">
+                                <span class="first"></span>
+                                <span class="second"></span>
+                            </li>
+                            <li class="second">
+                                <span class="first"></span>
+                                <span class="second"></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="today-sale">
+                    <ul>
+                        <li><a href="#">오늘의 특가 상품이 없습니다</a></li>
+                        <li><a href="#">내일의 특가 상품이 없습니다</a></li>
+                        <li><a href="#">모레의 특가 상품이 없습니다</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- //타임세일 -->
+        <!-- 베스트 -->
+        <section class="best">
+            <div class="container">
+
+                <span class="section-title">
+                    Best of
+                    <b>Best</b>
+                </span>
+                <p class="section-sub">
+                    그린너트에서 가장 잘 나가는 제품 Best 12
+                </p>
+                <div class="best-good">
+                    <div class="swiper-container good-visual">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide good-slide">
+                                <div class="good-img">
+                                    <img src="images/good1.jpg" alt="" class="good-img-back">
+                                    <img src="images/good1_hover.jpg" alt="" class="good-img-front">
+                                </div>
+                                <div class="num">
+                                    <img src="./images/best_img2.png" alt="">
+                                    <span>1</span>
+                                </div>
+                                <div class="info-icon">
+                                    <img src="./images/sale2.png" alt="">
+                                </div>
+                                <div class="good-bg">
+                                    <p class="best-name">
+                                        에브리데이넛츠 화이트 20g 30봉입
+                                    </p>
+                                    <span>견과류로만 구성된 하루견과 세트</span>
+                                    <div class="sale-good">
+                                        <span class="before-sale">
+                                            25,000원
+                                        </span>
+                                        <b>15,900</b>원
+                                        <span class="sale_per">
+                                            21%
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide good-slide">
+                                <div class="good-img">
+                                    <img src="images/good2.jpg" alt="" class="good-img-back">
+                                    <img src="images/good2_hover.jpg" alt="" class="good-img-front">
+                                </div>
+                                <div class="num">
+                                    <img src="./images/best_img2.png" alt="">
+                                    <span>2</span>
+                                    <div class="info-icon">
+                                        <img src="./images/sale2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="good-bg">
+                                    <p class="best-name">
+                                        [그린너트] 리얼넛츠 오리진 25g 100낱봉
+                                    </p>
+                                    <span></span>
+                                    <div class="sale-good">
+                                        <span class="before-sale">
+                                            80,000원
+                                        </span>
+                                        <b>61,900</b>원
+                                        <span class="sale_per">
+                                            23%
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide good-slide">
+                                <div class="good-img">
+                                    <img src="images/good3.jpg" alt="" class="good-img-back">
+                                    <img src="images/good3_hover.jpg" alt="" class="good-img-front">
+                                </div>
+                                <div class="num">
+                                    <img src="./images/best_img2.png" alt="">
+                                    <span>3</span>
+                                    <div class="info-icon">
+                                        <img src="./images/sale2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="good-bg">
+                                    <p class="best-name">
+                                        에브리데이넛츠 8종 견과 선물세트
+                                    </p>
+                                    <span>8가지 견과류로 풍성함을 더한 선물세트</span>
+                                    <div class="sale-good">
+                                        <span class="before-sale">
+                                            50,000원
+                                        </span>
+                                        <b>32,900</b>원
+                                        <span class="sale_per">
+                                            35%
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide good-slide">
+                                <div class="good-img">
+                                    <img src="images/good4.jpg" alt="" class="good-img-back">
+                                    <img src="images/good4_hover.jpg" alt="" class="good-img-front">
+                                </div>
+                                <div class="num">
+                                    <img src="./images/best_img2.png" alt="">
+                                    <span>4</span>
+                                    <div class="info-icon">
+                                        <img src="./images/sale2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="good-bg">
+                                    <p class="best-name">
+                                        리얼넛츠 오리진 25g 25봉입 4세트 총 100봉입
+                                    </p>
+                                    <span>견과류만 알차게 담은 하루견과!</span>
+                                    <div class="sale-good">
+                                        <span class="before-sale">
+                                            25,000원
+                                        </span>
+                                        <b>15,900</b>원
+                                        <span class="sale_per">
+                                            21%
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide good-slide">
+                                <div class="good-img">
+                                    <img src="images/good5.jpg" alt="" class="good-img-back">
+                                    <img src="images/good5_hover.jpg" alt="" class="good-img-front">
+                                </div>
+                                <div class="num">
+                                    <img src="./images/best_img2.png" alt="">
+                                    <span>5</span>
+                                    <div class="info-icon">
+                                        <img src="./images/sale2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="good-bg">
+                                    <p class="best-name">
+                                        에브리데이넛츠 화이트 20g 30봉입
+                                    </p>
+                                    <span>그래놀라,건포도요거트초코와 견과가 한봉에!!</span>
+                                    <div class="sale-good">
+                                        <span class="before-sale">
+                                            25,000원
+                                        </span>
+                                        <b>15,900</b>원
+                                        <span class="sale_per">
+                                            21%
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide good-slide">
+                                <div class="good-img">
+                                    <img src="images/good6.jpg" alt="" class="good-img-back">
+                                    <img src="images/good6_hover.jpg" alt="" class="good-img-front">
+                                </div>
+                                <div class="num">
+                                    <img src="./images/best_img2.png" alt="">
+                                    <span>6</span>
+                                    <div class="info-icon">
+                                        <img src="./images/sale2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="good-bg">
+                                    <p class="best-name">
+                                        엘 에브리데이넛츠 20g 30+30봉입 총 60봉 세트
+                                    </p>
+                                    <span>호두,구운아몬드,건포도,로스티드피넛,해바라기씨가 골고루!</span>
+                                    <div class="sale-good">
+                                        <span class="before-sale">
+                                            25,000원
+                                        </span>
+                                        <b>15,900</b>원
+                                        <span class="sale_per">
+                                            21%
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide good-slide">
+                                <div class="good-img">
+                                    <img src="images/good7.jpg" alt="" class="good-img-back">
+                                    <img src="images/good7_hover.jpg" alt="" class="good-img-front">
+                                </div>
+                                <div class="num">
+                                    <img src="./images/best_img2.png" alt="">
+                                    <span>7</span>
+                                    <div class="info-icon">
+                                        <img src="./images/sale2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="good-bg">
+                                    <p class="best-name">
+                                        에브리데이넛츠 25g 30+30봉입 총 60봉 세트
+                                    </p>
+                                    <span>인기견과 과 함유된 그린너트 베스트 셀러!! </span>
+                                    <div class="sale-good">
+                                        <span class="before-sale">
+                                            25,000원
+                                        </span>
+                                        <b>15,900</b>원
+                                        <span class="sale_per">
+                                            21%
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 비주얼 스와이퍼 버튼 -->
+                    <div class="good-next"></div>
+                    <div class="good-prev"></div>
+
+                </div>
+                <div class="more-bt">
+
+                    <a href="#">More</a>
+
+                </div>
+            </div>
+        </section>
+        <!-- //베스트 -->
+        <!-- 새로운 제품 -->
+        <section class="new">
+            <div class="container">
+                <span class="section-title">
+                    NEW
+                </span>
+                <p class="section-sub">
+                    그린너트 신제품을 소개합니다
+                </p>
+                <div class="new-good">
+                    <ul class="new-gnb clearfix">
+                        <li>
+                            <a href="#">
+                                <div class="new-img">
+                                    <img src="./images/newgood.jpg" class="new-img-back" alt="">
+                                    <img src="./images/newgood-hover.jpg" class="new-img-front" alt="">
+                                </div>
+                                <div class="info-icon">
+                                    <img src="./images/sale2.png" alt="">
+                                </div>
+                                <div class="new-price">
+                                    <p class="new_name">
+                                        [그린너트] 에브리데이넛츠 화이트 <br>20g 50봉 선물세트
+                                    </p>
+                                    <span class="new-before">35,000원</span>
+                                    <b>22,900</b>원
+                                    <span class="new_per">
+                                        35%
+                                    </span>
+                                </div>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="new-img">
+                                    <img src="./images/newgood2.jpg" class="new-img-back" alt="">
+                                    <img src="./images/newgood2-hover.jpg" class="new-img-front" alt="">
+                                </div>
+                                <div class="info-icon">
+                                    <img src="./images/sale2.png" alt="">
+                                </div>
+                                <div class="new-price">
+                                    <p class="new_name">
+                                        [그린너트] 엘 에브리데이넛츠<br>20g 50봉 선물세트
+                                    </p>
+                                    <span class="new-before">30,000원</span>
+                                    <b>19,900</b>원
+                                    <span class="new_per">
+                                        34%
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="new-img">
+                                    <img src="./images/newgood3.jpg" class="new-img-back" alt="">
+                                    <img src="./images/newgood3-hover.jpg" class="new-img-front" alt="">
+                                </div>
+                                <div class="info-icon">
+                                    <img src="./images/sale2.png" alt="">
+                                </div>
+                                <div class="new-price">
+                                    <p class="new_name">
+                                        [그린너트] 에브리데이넛츠 오리지날 <br>25g 50봉 선물세트
+                                    </p>
+                                    <span class="new-before">40,000원</span>
+                                    <b>26,900</b>원
+                                    <span class="new_per">
+                                        33%
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="new-img">
+                                    <img src="./images/newgood4.jpg" class="new-img-back" alt="">
+                                    <img src="./images/newgood4-hover.jpg" class="new-img-front" alt="">
+                                </div>
+                                <div class="info-icon">
+                                    <img src="./images/sale2.png" alt="">
+                                </div>
+                                <div class="new-price">
+                                    <p class="new_name">
+                                        [그린너트] 에브리데이넛츠 오리진 <br>20g 50봉 선물세트
+                                    </p>
+                                    <span class="new-before">50,000원</span>
+                                    <b>33,900</b>원
+                                    <span class="new_per">
+                                        11%
+                                    </span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="more-bt">
+
+                    <a href="#">More</a>
+
+                </div>
+            </div>
+        </section>
+        <!-- //새로운 제품 -->
+
+        <!-- 하단 배너 -->
+        <section class="banner-bottom">
+            <div class="container">
+                <div class="bottom-span">
+                    <span>Tasty, Healthy & Fresh</span>
+                </div>
+
+            </div>
+        </section>
+        <!-- //하단 배너 -->
+        <!-- 할인상품 -->
+        <section class="sale-bottom">
+            <div class="container">
+                <div class="section-title">
+                    SALE
+                </div>
+                <div class="section-sub">
+                    그린너트 할인 제품으로 알뜰 쇼핑하세요!
+                </div>
+                <div class="sale-list">
+                    <ul class="s-gnb clearfix">
+                        <li>
+                            <div class="s-box">
+                                <a href="#">
+                                    <div class="sale-img">
+                                        <img src="./images/newgood.jpg" class="sale-good" alt="">
+                                        <img src="./images/newgood-hover.jpg" class="sale-good-hover" alt="">
+                                    </div>
+                                    <div class="info-icon">
+                                        <img src="./images/sale2.png" alt="">
+                                    </div>
+                                    <div class="sale-price">
+                                        <p class="sale_name">
+                                            [그린너트] 에브리데이넛츠 화이트 <br>20g 50봉 선물세트
+                                        </p>
+                                        <span class="sale_per">
+                                            35<b>%</b>
+                                        </span>
+                                        <span class="sale-before">35,000원</span>
+                                        <b>22,900</b>원
+
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="s-box">
+                                <a href="#">
+                                    <div class="sale-img">
+                                        <img src="./images/newgood2.jpg" class="sale-good" alt="">
+                                        <img src="./images/newgood2-hover.jpg" class="sale-good-hover" alt="">
+                                    </div>
+                                    <div class="info-icon">
+                                        <img src="./images/sale2.png" alt="">
+                                    </div>
+                                    <div class="sale-price">
+                                        <p class="sale_name">
+                                            [그린너트] 엘 에브리데이넛츠 20g 50봉 선물세트
+                                        </p>
+                                        <span class="sale_per">
+                                            34<b>%</b>
+                                        </span>
+                                        <span class="sale-before">30,000원</span>
+                                        <b>19,900</b>원
+
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="s-box">
+                                <a href="#">
+                                    <div class="sale-img">
+                                        <img src="./images/newgood3.jpg" class="sale-good" alt="">
+                                        <img src="./images/newgood3-hover.jpg" class="sale-good-hover" alt="">
+                                    </div>
+                                    <div class="info-icon">
+                                        <img src="./images/sale2.png" alt="">
+                                    </div>
+                                    <div class="sale-price">
+                                        <p class="sale_name">
+                                            [그린너트] 에브리데이넛츠 오리지날 25g 50봉 <br>선물세트
+                                        </p>
+                                        <span class="sale_per">
+                                            30<b>%</b>
+                                        </span>
+                                        <span class="sale-before">40,000원</span>
+                                        <b>26,900</b>원
+
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="s-box">
+                                <a href="#">
+                                    <div class="sale-img">
+                                        <img src="./images/newgood4.jpg" class="sale-good" alt="">
+                                        <img src="./images/newgood4-hover.jpg" class="sale-good-hover" alt="">
+                                    </div>
+                                    <div class="info-icon">
+                                        <img src="./images/sale2.png" alt="">
+                                    </div>
+                                    <div class="sale-price">
+                                        <p class="sale_name">
+                                            [그린너트] 리얼넛츠 오리진 <br>25g 50봉 선물세트
+                                        </p>
+                                        <span class="sale_per">
+                                            11<b>%</b>
+                                        </span>
+                                        <span class="sale-before">50,000원</span>
+                                        <b>33,900</b>원
+
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="more-bt">
+
+                    <a href="#">More</a>
+
+                </div>
+            </div>
+        </section>
+        <!-- //할인상품 -->
+        <!-- 하단 -->
+        <section class="footer">
+            <div class="container">
+                <div class="footer-top clearfix">
+                    <div class="ft-1">
+                        <b class="cs-title">
+                            Customer Center
+                        </b>
+                        <span class="number">
+                            <img src="./images/main_cs_phone2.png" alt="">
+                            031.763.4666
+                        </span>
+                        <p>평일 오전 09 : 00 ~ 오후 06 : 00</p>
+                        <p>점심 오후 01 : 00 ~ 오후 02 : 00</p>
+                        <p>휴일, 주말에는 게시판을 이용해주세요 </p>
+                    </div>
+                    <div class="ft-2">
+                        <ul class="gnb-bt">
+                            <li>
+                                <a href="#">
+                                    <img src="./images/main_cs_icon1.png" alt="">
+                                    <span>FAQ</span>
+                                </a>
+                            </li>
+                            <li> <a href="#">
+                                    <img src="./images/main_cs_icon2.png" alt="">
+                                    <span>Q&A</span>
+                                </a></li>
+                            <li> <a href="#">
+                                    <img src="./images/main_cs_icon3.png" alt="">
+                                    <span>구매후기</span>
+                                </a>
+                            </li>
+                            <li> <a href="#">
+                                    <img src="./images/main_cs_icon4.png" alt="">
+                                    <span>대량구매</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="ft-3">
+                        <div class="ft-3-main">
+                            <b>Bank Info</b>
+                            <img src="./images/kb.png" alt="">
+                            <p>349-25-0008-761</p>
+                            <span>예금주:동우농산(주)</span>
+                        </div>
+                    </div>
+                    <div class="ft-4">
+                        <div class="ft-4-main">
+                            <b>Notice</b>
+                            <a href="#">
+                                <img src="./images/best_plus.png" alt="">
+                            </a>
+                            <div class="notice-list">
+                                <ul class="fr-gnb">
+                                    <li><a href="#">
+                                            2021년 설 배송공지</a></li>
+                                    <li><a href="#">Chrome 브라우저 사용 시 결제 오류 안내</a></li>
+                                    <li><a href="#">제주도 배송공지 관련 안내 </a></li>
+                                    <li><a href="#">명예훼손, 불건전한 내용 및 광고 등의 글은 본인 동의없이 삭제 될 수 있습니다.</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <div class="container">
+                    <div class="intro">
+                        <ul class="intro-gnb">
+                            <li><a href="#">
+                                    회사소개
+                                </a></li>
+                            <li><a href="#">
+                                    이용약관
+                                </a></li>
+                            <li><a href="#">
+                                    개인정보취급방침
+                                </a></li>
+                            <li><a href="#">
+                                    입점 및 제휴문의
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="blog">
+                        <a href="#">
+                            <p> 그린너트 블로그
+                            </p>
+                            <img src="./images/blog.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="footer-logo">
+
+                    </div>
+                    <div class="info">
+                        <ul class="info-gnb clearfix">
+                            <li>
+                                <span class="ub">고객센터 :
+                                    <b>031-763-4666</b>
+                                </span>
+
+                                <span>상담시간 :
+                                    <b> 월~금 am09:00~pm06:00</b>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="ub">
+                                    동우농산㈜
+                                </span>
+
+                                <span class="ub">
+                                    경기도 광주시 초월면 무갑길 124번길 14-7
+                                </span>
+
+                                <span class="ub">대표 : 안선애</span>
+
+                                <span>사업자등록번호 : 126-81-44920</span>
+                            </li>
+                            <li>
+                                <span class="ub">고통신판매업신고 : 2004-경기광주-0173</span>
+
+                                <span class="ub">개인정보관리 책임자 : 안선애</span>
+
+                                <span>메일문의 : <a href="#"></a>dongwoonongsan@hanmail.net</span>
+
+                            </li>
+
+                        </ul>
+                        <p>
+                            Copyright(c)2014 Green Nuts co.,ltd.all rights reserved.
+                        </p>
+                    </div>
+                    <div class="f-right">
+                        <div class="logos clearfix">
+                            <a href="#">
+                                <img src="./images/img_ftc.png" alt="">
+                            </a>
+                            <img src="./images/inipay_60x60_gray.png" alt="">
+                            <img src="./images/escrow_60x60_gray.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- //하단 -->
+    </div>
+
+</body>
+
+</html>
